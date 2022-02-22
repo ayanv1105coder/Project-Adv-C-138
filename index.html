@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <div class="btn btn-info heading">
+                <h2 title="I Am The Heading!"><b>AI PING PONG GAME</b></h2>
+                <h5 title="I Am The Note!">Click The Instructions Button To See How To Play The AI PINGPONG GAME</h5>
+                <button class="btn btn-primary" title="Cick Me To See How To Play This Game!" data-toggle="modal" data-target="#myModal"><b>Instructions ℹ️</b></button>
+            </div>
+                <br><br>
+                    <button class="btn btn-primary" onclick="startGame()" id="start" title="Click Me To Start The Game!"><b>Play Game 🎮🕹️</b></button>
+                <br><br>
+                    <h3 id="status" class="btn btn-warning" title="I Show The Status Of The Game!"><b>Status 🔵🟣⚫</b></h3>
+                <br><br>
+                    <div id="canvas" title="I Am The Game/Canvas"></div>
+                    <div class="copy_right_footer" title="Thanks To Prashanth Shulka!">
+                        Thanks To Prashanth Shulka - <a href="https://github.com/prashantlv" target="_blank">Visit Prashanth's Github Now!</a> || Game Credit : PingPong
+                    </div>
+        </center>
+    </body>
+</html>
